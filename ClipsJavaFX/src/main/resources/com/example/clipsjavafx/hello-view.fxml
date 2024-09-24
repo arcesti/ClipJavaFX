@@ -6,13 +6,13 @@
 <?import javafx.scene.text.Font?>
 
 
-<BorderPane minHeight="600.0" minWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clipsjavafx.HelloController">
+<BorderPane fx:id="painel" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clipsjavafx.HelloController">
    <top>
-      <HBox fx:id="painel" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: ORANGE;" BorderPane.alignment="CENTER">
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="800.0" style="-fx-background-color: orange;" BorderPane.alignment="CENTER">
          <children>
-            <Button alignment="CENTER" mnemonicParsing="false" onAction="#onNovoClip" text="+" textAlignment="CENTER">
+            <Button mnemonicParsing="false" onAction="#onNovoClip" text="+">
                <font>
-                  <Font size="23.0" />
+                  <Font name="System Bold" size="16.0" />
                </font>
             </Button>
          </children>
